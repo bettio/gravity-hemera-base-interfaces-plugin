@@ -1,0 +1,11 @@
+#ifndef HEMERA_BASE_INTERFACES_CONFIG_H
+#define HEMERA_BASE_INTERFACES_CONFIG_H
+
+namespace StaticConfig {
+
+Q_DECL_CONSTEXPR const char *hemeraServicesPath() { return "@HEMERA_SERVICE_DIR@"; }
+Q_DECL_CONSTEXPR const char *gravityCenterPluginsPath() { return "@FULL_INSTALL_PLUGINS_DIR@"; }
+
+}
+
+#endif // HEMERA_BASE_INTERFACES_CONFIG_H

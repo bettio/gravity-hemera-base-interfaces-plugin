@@ -1,0 +1,21 @@
+{
+   "interface": "com.ispirata.Hemera.ApplianceManifest",
+   "version_major": 1,
+   "version_minor": 0,
+   "type": "properties",
+   "quality": "producer",
+   "mappings": [
+       {
+           "path": "/applianceName",
+           "type": "string"
+       },
+       {
+           "path": "/applianceVariant",
+           "type": "string"
+       },
+       {
+           "path": "/applianceVersion",
+           "type": "string"
+       }
+   ]
+}
